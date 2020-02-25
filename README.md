@@ -1,17 +1,25 @@
-Objetivo
+# Password
 
 Validar se uma senha é correta
 
-Construção
+### Pré requisitos
+
+Java 1.8 ou superior
+
+### Construção
 
 O app foi construído na linguagem Java e uso diversos frameworks e tecnologias, tais como: Swagger, Spring Boot 2 e Spring Actuator e Gradle
 
-Buid
+### Instalação
+
+Para executar e modificar este projeto basta efetuar o "git clone", importar na sua IDE favorita (ex: Eclipse, IntelliJ) e executar a classe "ProjectApplication". Note que este projeto faz uso do Spring Boot por essa razão, há um servidor web embedded que poderá ser usado.
+
+### Buid
 
 A aplicação pode ser compilada usando o seguinte comando:
 "gradle build"
 
-Docker
+### Docker
 
 Caso haja interesse é possível rodar a aplicação por meio de um container docker, já que dentro do projeto há um DockerFile. Seguem os comandos:
 
@@ -29,7 +37,7 @@ http://localhost:8080/v1/api/password (Endpoint)
 http://localhost:8080/actuator/health (Status do Spring Actuator)
 
 
-Heroku 
+### Heroku
 
 O projeto está online, disponível para uso nos seguintes endereços:
 
